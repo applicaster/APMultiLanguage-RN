@@ -1,0 +1,56 @@
+{
+  "api": {
+    "require_startup_execution": false,
+    "class_name": "ZPReactNativeDefaultProvider",
+    "modules": [
+      "ZappReactNativeAdapter"
+    ]
+  },
+  "dependency_repository_url": [],
+  "platform": "ios",
+  "author_name": "Manuel Pretelin",
+  "author_email": "m.pretelin@applicaster.com",
+  "manifest_version": "0.1.0",
+  "name": "APMultiLanguage-RN",
+  "description": "",
+  "type": "general",
+  "screen": true,
+  "preload": true,
+  "identifier": "apmultilanguage-rn",
+  "ui_builder_support": true,
+  "whitelisted_account_ids": [
+    "56e92d4b643037000b000000"
+  ],
+  "thumbnail": {
+    "height": 36,
+    "url": "",
+    "width": 160
+  },
+  "min_zapp_sdk": "12.0.0",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "react_native": true,
+  "react_bundle_url": "https://assets-production.applicaster.com/applicaster-employees/us_team/ZappRNStarter/ios/index.ios.bundle.js",
+  "extra_dependencies": [
+
+  ],
+  "npm_dependencies": [
+
+  ],
+  "project_dependencies": [
+
+  ],
+  "custom_configuration_fields": [
+
+  ],
+  "general": {
+    "fields": [
+      {
+        "key": "configUrl",
+        "label": "Config URL",
+        "label_tooltip": "Enter the Config URL",
+        "type": "text_input"
+      }
+    ]
+  }
+}
