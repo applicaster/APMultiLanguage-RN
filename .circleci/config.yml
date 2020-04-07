@@ -7,8 +7,8 @@ jobs:
     environment:
       CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
-      CIRCLE_BUILD_IOS: /tmp/build/ios
-      CIRCLE_BUILD_ANDROID: /tmp/build/android
+      CIRCLE_BUILD_IOS: build/ios
+      CIRCLE_BUILD_ANDROID: build/android
     docker:
     - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
     steps:
