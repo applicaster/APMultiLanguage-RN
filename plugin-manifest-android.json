@@ -7,8 +7,8 @@
   "dependency_repository_url": [],
   "platform": "android",
   "author_name": "Manuel Pretelin",
-  "author_email": "m.pretelin@applicaster.com",
-  "manifest_version": "0.1.0",
+  "author_email": "m.pretelin@applicaster.com", 
+  "manifest_version": "0.0.1",
   "name": "APMultiLanguage-RN",
   "description": "",
   "type": "general",
@@ -28,7 +28,7 @@
   "deprecated_since_zapp_sdk": "",
   "unsupported_since_zapp_sdk": "",
   "react_native": true,
-  "react_bundle_url": "https://assets-production.applicaster.com/applicaster-employees/us_team/ZappRNStarter/ios/index.ios.bundle.js",
+  "react_bundle_url": "https://assets-production.applicaster.com/zapp/react-native-bundles/ap-multilanguage-rn/0.0.1/android/index.android.bundle.js",
   "extra_dependencies": [
 
   ],
