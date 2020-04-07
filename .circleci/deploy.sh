@@ -25,6 +25,9 @@ case $ci_branch in
 "master")
   deploy_master 
   ;;
+"initial-config")
+  deploy_master 
+  ;;
 *)
   skip_build
   ;;
