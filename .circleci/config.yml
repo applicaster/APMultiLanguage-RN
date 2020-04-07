@@ -39,12 +39,6 @@ jobs:
         name: NPM install
         command: npm install
 
-    - run: mkdir -p $CIRCLE_TEST_REPORTS/junit
-    - run:
-        name: Mocha Unit Tests
-        command: npm run test-reporter
-    - run: cp test-results.xml $CIRCLE_TEST_REPORTS/junit
-
     - run:
         name: Jest Unit Tests
         command: npm run jest
