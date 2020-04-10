@@ -10,12 +10,11 @@
   "platform": "ios",
   "author_name": "Manuel Pretelin",
   "author_email": "m.pretelin@applicaster.com",
-  "manifest_version": "0.0.2",
+  "manifest_version": "0.0.3",
   "name": "APMultiLanguage-RN",
   "description": "MultiLanguage React Native",
   "type": "general",
   "screen": true,
-  "preload": true,
   "identifier": "apmultilanguage-rn",
   "ui_builder_support": true,
   "whitelisted_account_ids": [
@@ -30,7 +29,7 @@
   "deprecated_since_zapp_sdk": "",
   "unsupported_since_zapp_sdk": "",
   "react_native": true,
-  "react_bundle_url": "https://assets-production.applicaster.com/zapp/react-native-bundles/ap-multilanguage-rn/0.0.2/ios/index.ios.bundle.js",
+  "react_bundle_url": "https://assets-production.applicaster.com/zapp/react-native-bundles/ap-multilanguage-rn/0.0.3/ios/index.ios.bundle",
   "extra_dependencies": [
 
   ],
