@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.10",
+    "react-native": "0.62.3",
     "react-native-zapp-bridge": "^2.7.4"
   },
   "devDependencies": {
